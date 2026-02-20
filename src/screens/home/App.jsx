@@ -32,7 +32,7 @@ function App() {
 						onChange={e => {
 							setSearchTerm(e.target.value)
 						}}
-						placeholder="Search..."
+						placeholder="Поиск..."
 						className="border border-black/15 dark:border-white/15 px-2 py-1 rounded outline-0"
 					/>
 
@@ -55,7 +55,7 @@ function App() {
 						/>
 					))
 				) : (
-					<p>Movies not found!</p>
+					<p>Такого фильма нет!</p>
 				)}
 			</main>
 		</div>
